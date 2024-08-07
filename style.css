@@ -1,0 +1,377 @@
+*{
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+}
+
+header{
+    min-height: 66px;
+    max-width: 100vw;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top:0%;
+    right: 0%;
+    left: 0%;
+    align-items: center;
+    color: white;
+    z-index: 10;
+}
+nav{
+    display: flex;
+    gap: 5em;
+   
+}
+
+nav,a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+.logo{
+    margin-right: 7em;
+}
+.homesec{
+    min-height: 85vh;
+    max-width: 100vw;
+    background-image: url(https://img.freepik.com/premium-photo/abstract-white-background-wallpaper-ai-generated_764067-2860.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin-top: 3em;
+     padding-top: 3em;
+     padding: 1em;
+     display: flex;
+
+}
+
+.part1{
+    height: 80%;
+    width: 50%;
+ margin-top: 7em;
+padding-left: 4em;
+}
+
+.bttn1{
+    height: 30px;
+    width: 160px;
+    background-color: cornflowerblue;
+    border: none;
+    color: white;
+    margin-left: 2em;
+    margin-top: 3em;
+    border-radius: 15px;
+    animation-name:colors;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes colors{
+
+
+    0%{
+        background-color: rgb(87, 226, 122);
+    }
+
+
+    50%{
+        background-color: rgb(209, 216, 107);
+    }
+    70%{
+        background-color: rgb(175, 102, 235);
+    }
+    
+}
+
+
+
+.bttn1:hover{
+    background-color: rgb(47, 199, 68);
+    border: 1.3px solid rgb(69, 67, 67);
+}
+
+.img1{
+    animation: bouncing 2s ease 0s infinite alternate both;
+    display: inline-block;
+    padding: 1em 2em 1.1em;
+    position: relative;
+    vertical-align: top;
+    margin-top: 50px;
+}
+
+@keyframes bouncing{
+     0%{
+        bottom: 0;
+     }
+     100%{
+        bottom: 50px;
+     }
+}
+
+
+
+/* about section */
+
+
+.aboutsec{
+    max-width: 100vw;
+    min-height: 75vh;
+    background-color: rgb(154, 183, 238);
+    align-items: center;
+    display: flex;
+    padding: 2em;
+}
+.span1{
+    color: rgb(246, 246, 251);
+}
+
+.abouthead{
+    text-align: center;
+    padding: 1em 0 1em 0;
+}
+
+.part01, .part02{
+    width: 50%;
+    text-align: center;
+
+}
+.img11{
+    height:300px ;
+    width: 400px;
+    text-align: center;
+}
+.aboutsec2{
+    min-height: 80vh;
+    max-width: 100vw;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+
+.abouthead2{
+    padding-top: 2em;
+    margin-bottom: 2em;
+}
+
+.spanpink{
+    color: palevioletred;
+}
+
+
+.icon{
+    font-size: 1.3em;
+}
+
+
+.img12{
+    width: 80%;
+    height: 80%;
+}
+
+/* gallerysec */
+
+.gallerypart001{
+    max-width: 100vw;
+    min-height: 100vh;
+    background-color:#f2aed1;
+    
+}
+
+
+.gallerysec{
+   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.galleryhead1{
+   margin: 0 0 1em 0;
+   padding-top: 2em;
+   text-align: center;
+ 
+   
+}
+
+.galleryimg1{
+    height: 240px;
+    width: 250px; 
+    margin-top: 2em;
+    clip-path: polygon(50% 0%, 100% 38%,
+    82% 100% , 18% 100%, 0% 38%
+    
+    )
+}
+
+
+.sss{
+    margin-bottom: 2em;
+}
+
+.bgimg{
+    height: 100vh;
+    max-width: 100vw;
+    background-image:url( https://media.istockphoto.com/id/626186336/photo/modern-buildings-in-tokyo-at-sunrise.jpg?s=612x612&w=0&k=20&c=5-r1frRmfn7WkSxdzHDY7GBOR19icEZqDTSi4KNM5Ns=);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+}
+
+.iconsdiv{
+    min-height: 40%;
+    max-width: 100%;
+    text-align: center;
+    padding: 2em;
+ 
+}
+
+.align{
+       display: flex;
+    justify-content: space-around;
+    padding-top: 3em;
+    font-size: 1.6em;
+}
+
+
+.footer1{
+    max-width: 100vw;
+    min-height: 80vh;
+    background-color:  #9ab7ee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.quik{
+
+    padding-bottom: 1em;
+
+}
+
+.links{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.line{
+    line-height: 2em;
+    margin-left: 1.5em;
+    font-size: 1.5em;
+}
+
+.line2{
+    margin-bottom: 2em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    background-color: #9ab7ee ;
+}
+
+
+.submit{
+    width: 120px;
+    border: none;
+    background-color: #f2aed1;
+    border: 1px solid white;
+    height: 30px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+
+.footer2{
+    height: 50px;
+    max-width: 100%;
+    background-color:  rgb(174, 174, 174);
+    text-align: center;
+    padding-top: 1.5em;
+    font-size: 0.9em;
+}
+
+
+@media only screen and (max-width:950px){
+
+
+    nav{
+        display: none;
+    }
+
+    .homesec{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutsec, .aboutsec2, .footer1{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .img1{
+        width: 80%;
+    }
+
+
+    .img11{
+        margin-left: -8em;
+    }
+
+
+}
+
+
+@media only screen and (max-width:720px){
+
+    .part2{
+        width: 30%;
+      margin-left: 3em;
+    }
+
+
+    .img11{
+        margin-top: 2em;
+    }
+
+
+
+}
+@media only screen and (max-width:400px){
+
+    .part02{
+        width: 100%;
+    }
+
+
+
+.img11{
+    width: 65%;
+    margin-left: -1em;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+.align{
+    margin-left: -1em;
+    font-size: small;
+}
+
+    .galleryimg1{
+       margin-left: 3em;
+    }
+
+
+}
+
+@media only screen and (max-width:300px){
+
+    .part1{
+        margin-left: -2em;
+    }
+
+
+}
